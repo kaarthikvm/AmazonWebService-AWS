@@ -33,7 +33,8 @@ def create_instance():
                 MinCount=1,
                 MaxCount=1,
                 InstanceType='t2.micro',
-                KeyName='ec2-keypair')
+                KeyName='ec2-keypair',
+                SecurityGroups='kaarthikSecurityPolicy')
 
 if __name__ == "__main__":
     create_key_pair();
