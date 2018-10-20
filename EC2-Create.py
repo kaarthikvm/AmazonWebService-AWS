@@ -2,9 +2,9 @@
 
 import boto3
 import os
-ec2 = boto3.resource('ec2',region_name='us-east-2',
-                           aws_access_key_id=os.environ['AWS_ACCESS_KEY_ID'],
-                           aws_secret_access_key=os.environ['AWS_SECRET_ACCESS_KEY'])
+ec2 = boto3.resource('ec2',region_name='us-east-2')#,
+                           #aws_access_key_id=os.environ['AWS_ACCESS_KEY_ID'],
+                           #aws_secret_access_key=os.environ['AWS_SECRET_ACCESS_KEY'])
 # create a file to store the key locally
 with open('ec2-keypair.pem','w') as outfile:
 
