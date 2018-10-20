@@ -1,0 +1,19 @@
+Playing with template
+My name is {{ name }}
+My class is {{ class }}
+My rank is {{  rank }}
+My list of subject is {{ subject }}
+
+Using for loop - list input
+{% for i in subject %}
+   {{ i }}
+{% endfor %}
+
+
+Using for loop - dict input
+{% for k in contact %}
+   Contact information is {{ contact[k] }}
+{% endfor %}
+
+
+

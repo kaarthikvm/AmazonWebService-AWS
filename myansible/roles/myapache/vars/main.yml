@@ -1,0 +1,14 @@
+---
+# vars file for myapache
+name: "Kaarthik"
+class: "LKG"
+subject:
+   - "one"
+   - 2
+   - 3
+contact:
+    addr: "letterkenny"
+    phone: "01234567"
+    fax: 1234
+        
+
