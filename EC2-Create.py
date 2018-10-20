@@ -29,7 +29,7 @@ def create_key_pair():
 ec2Resource=boto3.resource('ec2');
 def create_instance():
     instances = ec2Resource.create_instances(
-                ImageId='ami-0b59bfac6be064b78',
+                ImageId='ami-0782e9ee97725263d', # Ubuntu 16.04 LTS 
                 MinCount=1,
                 MaxCount=1,
                 InstanceType='t2.micro',
